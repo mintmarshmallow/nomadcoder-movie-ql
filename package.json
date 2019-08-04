@@ -1,0 +1,20 @@
+{
+  "name": "movie-ql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mintmarshmallow/nomadcoder-movie-ql",
+  "author": "mintmarshmallow <nopp054@naver.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.1",
+    "node-fetch": "^2.6.0"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js --delay 2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
